@@ -33,6 +33,8 @@ typedef enum
 	REAR_RIGHT_TALON,
 }TALON_CONTRLERS_t;
 
+constant int LEFT_LIFT = 0;
+constant int RIGHT_LIFT = 0;
 
 typedef enum{
 	//the name of each type should follow this format
