@@ -23,6 +23,7 @@ public:
 	static OI *oi;
 	static Drive_Base *drive_base;
 	static DataDisplay *driverDisplay;
+	static Lift *elevatorLift;
 
 };
 

@@ -9,6 +9,7 @@
 OI* CommandBase::oi = NULL;
 Drive_Base* CommandBase::drive_base = NULL;
 DataDisplay* CommandBase::driverDisplay = NULL;
+Lift* CommandBase::elevatorLift = NULL;
 
 CommandBase::CommandBase(char const *name) :
 		Command(name)
@@ -29,5 +30,6 @@ void CommandBase::init()
 	oi = new OI();
 	drive_base = new Drive_Base();
 	driverDisplay = new DataDisplay();
+	elevatorLift = new Lift();
 
 }

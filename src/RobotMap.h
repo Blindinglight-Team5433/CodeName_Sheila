@@ -33,8 +33,6 @@ typedef enum
 	REAR_RIGHT_TALON,
 }TALON_CONTRLERS_t;
 
-constant int LEFT_LIFT = 0;
-constant int RIGHT_LIFT = 0;
 
 typedef enum{
 	//the name of each type should follow this format
@@ -53,5 +51,15 @@ typedef enum{
 	NUM_OF_JOYSTICK_BUTTONS
 } JOYSTICE_BUTTONS_T;
 
+// Can IDs for the lift controllers
+const int LEFTLIFT = 0;     //Left Can ID for the lift
+const int RIGHTLIFT = 1;	//Right Can ID for the lift
+
+// String Pots analog ports
+const int LEFTSTRING = 1;   //Left string pot
+const int RIGHTSTRING = 2;	//Right string pot
+
+// Encoder location
+const int WHEELENCODER = 3;
 
 #endif
